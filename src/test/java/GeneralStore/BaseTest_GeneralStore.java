@@ -4,7 +4,6 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -51,6 +50,7 @@ public class BaseTest_GeneralStore {
         capObj.setCapability("appium:platformName", "Android");
         capObj.setCapability("appium:automationName", "UiAutomator2");
         capObj.setCapability("appium:app", "C:\\Users\\91733\\OneDrive\\Desktop\\AppiumBasics\\AppiumBasics\\src\\test\\resources\\General-Store.apk");
+        capObj.setCapability("appium:chromedriverExecutable", "C:\\Users\\91733\\OneDrive\\Desktop\\AppiumBasics\\AppiumBasics\\src\\test\\resources\\chromedriver.exe");
 
         // ✅ Add appPackage and appActivity for stability
         capObj.setCapability("appium:appPackage", "com.androidsample.generalstore");

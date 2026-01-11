@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GeneralStore.TC4_ValidateTotalPriceOfProducts">
+      <class name="GeneralStore.TC6_OperationsOnWebView">
         <methods>
-          <include name="checkoutPageProductValidationTest"/>
+          <include name="validateGestures"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="startAppiumServer"/>
           <include name="stopAppiumServer"/>
         </methods>
-      </class> <!-- GeneralStore.TC4_ValidateTotalPriceOfProducts -->
+      </class> <!-- GeneralStore.TC6_OperationsOnWebView -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
